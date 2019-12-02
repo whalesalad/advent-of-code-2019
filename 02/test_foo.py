@@ -20,3 +20,5 @@ def test_mine():
     c.state[2] = 2
 
     print(c.run())
+
+    print(c.get_around_value(19690720))
